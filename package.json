@@ -1,0 +1,31 @@
+{
+  "name": "handlespy",
+  "version": "1.0.0",
+  "description": "A Node.js library to inspect the required variables in a handlebars template",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint --ignore-path .gitignore ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https"
+  },
+  "keywords": [
+    "handlebars"
+  ],
+  "author": "Damien BUTY <dam.buty@gmail.com> (https://www.npmjs.com/~dam-buty)",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.1.2",
+    "lodash": "^4.17.11"
+  }
+}
