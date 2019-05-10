@@ -1,6 +1,8 @@
 # Handlespy
 
-Handlespy is a simple Node.js library to inspect Handlebars templates for required variables. It also provides a helper to verify that a payload contains all required variables.
+Handlespy is a simple Node.js library to inspect Handlebars templates for required variables. This is accomplished by iterating over the AST produced by the `handlebars` parser.
+
+It also provides a helper to verify that a payload contains all required variables.
 
 ## Installation
 
